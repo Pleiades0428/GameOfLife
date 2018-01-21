@@ -8,8 +8,9 @@ author: Pleiades
 
 import os
 import random
-from tkinter import *
 import threading
+from tkinter import *
+
 from gameOfLifeWorld import *
 
 width = 100
