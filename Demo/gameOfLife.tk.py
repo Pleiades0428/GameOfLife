@@ -58,6 +58,7 @@ def StartTimer():
 def Start():
     global mainForm
     mainForm = Tk()
+    mainForm.title('Game Of Life -- Pleiades')
     size = '%dx%d' % (width * cellSize, height * cellSize + 50)
     mainForm.geometry(size)
     global canvas
